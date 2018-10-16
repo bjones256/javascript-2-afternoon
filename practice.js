@@ -151,7 +151,13 @@ var methodCollection = {};
 
 //Code Here
 
+methodCollection.alertHello = function(){
+  alert("hello");
+}
 
+methodCollection.logHello = function(){
+  console.log("hello");
+}
 
 /*
   Now call your alertHello and logHello methods.
@@ -159,7 +165,8 @@ var methodCollection = {};
 
 //Code Here
 
-
+// methodCollection.alertHello();
+methodCollection.logHello();
 
 ////////// PROBLEM 6 //////////
 
@@ -170,7 +177,13 @@ var methodCollection = {};
 
 //Code Here
 
-
+function makePerson(name,birthday,ssn){
+return {
+  name: name,
+  birthday: birthday,
+  ssn: ssn
+}
+}
 
 ////////// PROBLEM 7 //////////
 
@@ -182,3 +195,10 @@ var methodCollection = {};
 //Code Here
 
 
+function makeCard(cardNumber, expirationDate, securityCode){
+return {
+  cardNumber: cardNumber,
+  expirationDate: expirationDate,
+  securityCode: securityCode,
+}
+}
