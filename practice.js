@@ -16,7 +16,11 @@
 
 //Code here
 
-
+var me ={
+  name: "Brian Jones",
+  age: 38
+}
+// alert(me.name);
 
 ////////// PROBLEM 2 //////////
 
@@ -26,7 +30,14 @@
 */
 
 //Code here
-
+var favoriteThings = {
+  band: "Migos",
+  food: "pizza",
+  person: "Myself",
+  book: "A brief history of time",
+  movie: "MacGruber",
+  holiday: "New Years"
+}
 
 
 /*
@@ -34,7 +45,8 @@
 */
 
 //Code here
-
+favoriteThings.car = "Tesla";
+favoriteThings.brand = "Tesla";
 
 
 /*
@@ -43,7 +55,8 @@
 
 //Code here
 
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 
 ////////// PROBLEM 3 //////////
 
@@ -57,6 +70,13 @@
 
 //Code here
 
+var backPack = {
+
+}
+
+var item = "firstPocket";
+backPack[item]= 'chapstick';
+backPack.color = 'grey';
 
 
 /*
@@ -65,7 +85,7 @@
 
 //Code here
 
-
+// alert(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -75,7 +95,7 @@ Instead, console.log your whole backPack object and then check out the console.
 
 //Code here
 
-
+console.log(backPack);
 
 ////////// PROBLEM 4 //////////
 
@@ -98,7 +118,8 @@ var user2 = {
 
 //Code Here
 
-
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in';
 
 
 
@@ -121,7 +142,7 @@ var user2 = {
 
 //Code Here
 
-
+var methodCollection = {};
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object. 
